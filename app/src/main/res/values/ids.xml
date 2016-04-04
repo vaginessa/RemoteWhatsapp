@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bannerAd" type="id">bannerAd</item>
+    <item name="iv_1" type="id">iv_1</item>
+    <item name="iv_2" type="id">iv_2</item>
+</resources>

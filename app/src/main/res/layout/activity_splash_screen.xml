@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash2"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="xiptide.harrypotternovels.SplashScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ic_launcher"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/powered_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/xiptide_inc"
+            android:layout_centerHorizontal="true"
+            android:alpha="0.6"
+            android:text="Powered By"
+            android:textColor="@android:color/white"
+            android:textStyle="italic|bold" />
+
+        <LinearLayout
+            android:id="@+id/xiptide_inc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/splash_ic_launcher_margin">
+
+            <TextView
+                android:id="@+id/x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/splash_text_size" />
+
+            <TextView
+                android:id="@+id/ymen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ymen"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/splash_text_size" />
+
+            <TextView
+                android:id="@+id/space"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="@dimen/splash_text_size" />
+
+            <TextView
+                android:id="@+id/i"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/splash_text_size" />
+
+            <TextView
+                android:id="@+id/nc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nc."
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/splash_text_size" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+

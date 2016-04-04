@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="navigation_drawer_list_pro">
+        <item>Welcome</item>
+        <item>How to Use?</item>
+        <item>Hide/Show Action Bar</item>
+        <item>Hide/Show Status Bar</item>
+        <item>FAQ</item>
+        <item>Share This App</item>
+        <item>More Apps</item>
+        <item>FeedBack</item>
+        <item>Rate This App</item>
+        <item>About Us</item>
+    </string-array>
+    <string-array name="navigation_drawer_list_free">
+        <item>Welcome</item>
+        <item>How to Use?</item>
+        <item>FAQ</item>
+        <item>Share This App</item>
+        <item>More Apps</item>
+        <item>Pro Version</item>
+        <item>FeedBack</item>
+        <item>Rate This App</item>
+        <item>About Us</item>
+    </string-array>
+</resources>

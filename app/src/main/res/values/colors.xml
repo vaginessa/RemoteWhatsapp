@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#075e54</color>
+    <color name="colorBehindStatusBar">#054d44</color>
+    <color name="primaryDarkColor">#388E3C</color>
+    <color name="accentColor">#FFFFFF</color>
+    <color name="home_page_bottom_text_color">@android:color/white</color>
+    <color name="app_bar_text_color_primary">@android:color/white</color>
+    <color name="text_bottom_view_chapter_color">@android:color/white</color>
+    <color name="text_bottom_view_chapter_background_color">@android:color/black</color>
+    <color name="app_bar_text_color_secondary">@android:color/white</color>
+    <color name="text_bottom_view_chpater_color">@android:color/white</color>
+    <color name="selection_drawer_row_bg_color">#B6B6B6</color>
+
+    <color name="SRL_1">#00ddff</color>
+    <color name="SRL_2">#99cc00</color>
+    <color name="SRL_3">#ffbb33</color>
+    <color name="SRL_4">#ff4444</color>
+    <color name="navigation_text">@android:color/white</color>
+    <color name="navigation_listview_bg">@android:color/transparent</color>
+    <color name="navigation_image_bg_color">@android:color/transparent</color>
+
+
+</resources>

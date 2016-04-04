@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="xymen.durjoydattanovels.FeedBack">
+    <item
+        android:id="@+id/Rate"
+        app:showAsAction="always"
+        android:icon="@drawable/rate"
+        android:title="Rate"/>
+</menu>

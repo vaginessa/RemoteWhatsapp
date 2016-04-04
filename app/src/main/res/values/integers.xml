@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="portrait_scale">90</integer>
+    <integer name="landscape_scale">80</integer>
+    <integer name="files_version_included">1</integer>
+</resources>

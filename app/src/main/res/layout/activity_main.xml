@@ -1,0 +1,164 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="xymen.official.MainActivity">
+
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/main_drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/textView5">
+
+
+        <LinearLayout
+            android:id="@+id/relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBehindStatusBar"
+            android:fitsSystemWindows="true"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/app_bar"
+                layout="@layout/app_bar" />
+
+            <RelativeLayout
+                android:id="@+id/relative_layout_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white">
+
+                <android.support.v4.widget.SwipeRefreshLayout
+                    android:id="@+id/SRL1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <WebView
+                        android:id="@+id/webView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+                </android.support.v4.widget.SwipeRefreshLayout>
+
+                <android.support.v4.widget.SwipeRefreshLayout
+                    android:id="@+id/SRL2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone">
+
+                    <WebView
+                        android:id="@+id/webView_for_whatsapp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </android.support.v4.widget.SwipeRefreshLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/navigation_drawer_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@drawable/navigation_drawer_bg3"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="@dimen/navigation_drawer_top_margin"
+                android:background="@color/navigation_image_bg_color"
+                android:scaleType="fitXY"
+                android:src="@drawable/xymen_inc_text" />
+
+
+            <ListView
+                android:id="@+id/navigation_drawer"
+                android:layout_width="@dimen/navigation_drawer_width"
+                android:layout_height="match_parent"
+                android:background="@color/navigation_listview_bg"
+                android:divider="@null"
+                android:entries="@array/navigation_drawer_list_pro" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="@dimen/navigation_drawer_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/selection_drawer_top_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/navigation_drawer_top_margin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/top_text_selction_drawer"
+                android:textSize="22sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/selection_drawer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/buttons_container"
+                android:layout_below="@+id/selection_drawer_top_text"
+                android:layout_gravity="end"
+                android:background="@android:color/white"
+                android:divider="@null" />
+
+            <LinearLayout
+                android:id="@+id/buttons_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true">
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/delete_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="4dp"
+                    android:onClick="delete"
+                    android:src="@drawable/fab_minus"/>
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/add_new_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="4dp"
+                    android:onClick="addNew"
+                    android:src="@drawable/fab_plus" />
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.DrawerLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/text_bottom_view_chapter_background_color"
+        android:gravity="center"
+        android:text="@string/text_bottom_view_chapter"
+        android:textColor="@color/text_bottom_view_chpater_color"
+        android:textSize="14sp" />
+</RelativeLayout>
+

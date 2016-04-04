@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Xymen Pro</string>
+    <string name="action_settings">Settings</string>
+    <string name="whatsappWebURL">https://web.whatsapp.com/</string>
+    <string name="user_agent">Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36</string>
+    <string name="title_activity_home">Home</string>
+    <string name="activity_name">Xymen</string>
+    <string name="add_new">Add New</string>
+    <string name="top_text_selction_drawer">Choose Client</string>
+    <string name="title_activity_feed_back">FeedBack</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_about">About</string>
+
+    <string name="FeedBackText">\t\t\t\t\t\t\t\tIf you like the app, please leave your review on the App Store by clicking the upper right button. In case you have any suggestions regarding this App or notice any bugs, please do let me know you about it by e-mailing me just by writing your feedback right in the box below.</string>
+    <string name="Matter">IT MATTERS A LOT!!</string>
+    <string name="Send">Send</string>
+    <string name="TypeFeedBack">Type Your FeedBack Here</string>
+
+    <string name="TextToShare"> now available on Play Store - https://play.google.com/store/apps/details?id=</string>
+    <string name="MoreApps">developer?id=XymenApps</string>
+    <string name="FBPage">https://www.facebook.com/XymenInc</string>
+
+    <string name="client_server_path">http://www.googledrive.com/host/0B8AXgyhS6QjFTWQzaDNMZ1FuTk0/</string>
+
+
+    <string name="server_path">https://275e30519a25e221186e8102812e995cfb81abd4-www.googledrive.com/host/0B34oTni7iKymfjNyWG94OENFTWVVbWxXT280YXhpMXVFa0I0T1Bpb3ljNFdFbWR5WGhnUFU/</string>
+
+
+    <string name="welcome_url_when_no_internet_present">file:///android_asset/welcome.html</string>
+    <string name="how_to_use_url_when_no_intenet">file:///android_asset/howToUse.html</string>
+    <string name="faq_url_when_no_intenet">file:///android_asset/faq.html</string>
+    <string name="about_url_when_no_intenet">file:///android_asset/about.html</string>
+
+
+    <string name="no_internet_url">file:///android_asset/no_internet.html</string>
+
+
+    <string name="how_to_use_file_name">howToUse.html</string>
+    <string name="faq_file_name">faq.html</string>
+    <string name="about_file_name">about.html</string>
+    <string name="welcome_file_name">welcome.html</string>
+
+
+    <string name="navigation_drawer_open">Navigation Open</string>
+    <string name="navigation_drawer_close">Navigation Drawer</string>
+    <string name="text_bottom_view_chapter">XymenApps</string>
+
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_splash_screen">Remote WhatsApp Pro</string>
+    <string name="version_available_file_name">version.html</string>
+    <string name="pro_file_name">pro.html</string>
+    <string name="pro_url_when_no_internet_present">file:///android_asset/pro.html</string>
+</resources>
