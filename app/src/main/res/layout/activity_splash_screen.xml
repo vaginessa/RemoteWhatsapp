@@ -7,7 +7,7 @@
     android:background="@drawable/splash2"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    tools:context="xiptide.harrypotternovels.SplashScreen">
+    tools:context="xymen.officialfree.SplashScreen">
 
     <RelativeLayout
         android:layout_width="match_parent"

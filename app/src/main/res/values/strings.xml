@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Xymen Pro</string>
+    <string name="app_name">Xymen</string>
     <string name="action_settings">Settings</string>
     <string name="whatsappWebURL">https://web.whatsapp.com/</string>
     <string name="user_agent">Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36</string>
